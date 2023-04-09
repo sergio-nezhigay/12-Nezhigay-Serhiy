@@ -1,9 +1,8 @@
 const resultEl = document.querySelector(".result");
 let task = "<h1> HomeWork #12 </h1>\n";
 
-// Лучший вариант видел и уже знаю, но сам додумался только до этого :(
-// С этим способом собес я б, наверно, не прошел ? ;)
-
+// Корявое, зато свое :(
+// Решение на лекции подсмотрел в записи, уже после своего. Так интереснее
 function _pow(num, degree, current) {
   current *= num;
   if (degree > 1) {
